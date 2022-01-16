@@ -5,9 +5,11 @@ maked_num = random.random()
 # print('maked_num')
 # print(maked_num)
 
-if maked_num < 0.2:
+if maked_num < 0.25:
     print('大凶！')
-elif 0.2 <= maked_num < 0.8:
+elif 0.25 <= maked_num < 0.5:
+    print('末吉！')
+elif 0.5 <= maked_num < 0.75:
     print('吉！')
-elif 0.8 <= maked_num:
+elif 0.75 <= maked_num:
     print('大吉！')
